@@ -1,0 +1,30 @@
+.categories {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    background-color: #f8f8f8;
+  }
+  
+  .category-card {
+    background-color: white;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .category-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d4a017;
+    margin-bottom: 10px;
+  }
+  
+  .category-text {
+    font-size: 14px;
+    color: #333;
+    line-height: 1.6;
+  }
+  

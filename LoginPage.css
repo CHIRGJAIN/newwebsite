@@ -1,0 +1,180 @@
+/* Login Page Wrapper */
+.login-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to right, #a7a53f, #7d854b);
+  padding: 0 5%;
+}
+
+/* Login Container */
+.login-container {
+  width: 350px;
+  padding: 30px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Title */
+.login-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Subtitle */
+.login-subtitle {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+/* Input Fields */
+.input-container {
+  display: flex;
+  align-items: center;
+  background: #f2f2f2;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.input-icon {
+  color: #333;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+input {
+  width: 100%;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 14px;
+}
+
+/* Login Button */
+.login-button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  background: #6c48fc;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.login-button:hover {
+  background: #5438e3;
+}
+
+/* Separator */
+.separator {
+  margin: 20px 0;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+}
+
+.separator::before,
+.separator::after {
+  content: " ";
+  position: absolute;
+  width: 40%;
+  height: 2px;
+  background: #ccc;
+  top: 50%;
+}
+
+.separator::before {
+  left: 0;
+}
+
+.separator::after {
+  right: 0;
+}
+
+/* Social Login */
+.social-login {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.social-login button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.google-login {
+  background: white;
+  border: 1px solid #ccc;
+}
+
+.facebook-login {
+  background: white;
+  border: 1px solid #ccc;
+}
+
+.google-login img,
+.facebook-login img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+/* Signup Text */
+.signup-text {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.signup-text a {
+  color: #6c48fc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Background Image */
+.background-image {
+  width: 50%;
+  height: 71%;
+  display: flex;
+  justify-content: center;
+}
+
+.background-image img {
+  width: 100%;
+}
+/* Admin/User Toggle */
+.toggle-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.toggle-container span {
+  padding: 8px 15px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #333;
+  border-radius: 8px;
+  margin: 0 5px;
+  transition: 0.3s;
+}
+
+.toggle-container .active {
+  background: #6c48fc;
+  color: white;
+}

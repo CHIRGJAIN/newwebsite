@@ -1,0 +1,21 @@
+.clients {
+    text-align: center;
+    padding: 40px 20px;
+    background: #f8f8d9;
+  }
+  
+  .client-list {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: blue;
+  }
+  
+  .client-list img {
+    width: 100px;
+    height: auto;
+    margin-left: 100px;
+    background-color: blue;
+
+  }
+  
